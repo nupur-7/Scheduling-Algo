@@ -1,8 +1,9 @@
+//first git commit
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
     int n;
-    cout<<"Enter no of processes:";
+    cout<<"Enter no of processes to execute:";
     cin>>n;
     vector<int> pid(n), arrivalTime(n), burstTime(n), completionTime(n), startTime(n), turnAroundTime(n), waitingTime(n), responseTime(n);
     
